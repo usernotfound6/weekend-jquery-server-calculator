@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Server Calculator</title>
 </head>
 <body>
+    <h1>Server Calculator</h1>
+    <input id="numberOneInput" type="number" placeholder="Enter Number">
+    <button id="addBtn">+</button>
+    <button id="subtractBtn">-</button>
+    <button id="multiplyBtn">*</button>
+    <button id="divideBtn">/</button>
+    <input id="numberTwoInput" type="number" placeholder="Enter Number">
+    <button id="submitBtn">=</button>
+    <button id="clearBtn">Clear</button>
+    <h1><span id="currentAnswer">0</span></h1>
+    <ul id="calculatorLog"></ul>
     
 </body>
 </html>
